@@ -16,3 +16,10 @@ Instructions for use (executable file only):
 
 Download the crosser.exe file and move the file to desktop.
 Once downloaded, double click to run.
+
+Instructions for use (IDE only):
+
+IMPORTANT: To use this in an IDE you must make sure to check if you have pygame installed by using **pip --version** in a command prompt or terminal in your chosen IDE.
+
+If you do not have pygame installed, use **pip install pygame** in in command prompt or the IDE terminal to install the package to use in python.
+Once done, you should be able to run the game by running the menu file in the program which will then start the game.
