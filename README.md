@@ -12,3 +12,7 @@ Gameplay:
 If the car hits a pedestrian, game over.
 <img width="797" height="627" alt="image" src="https://github.com/user-attachments/assets/884de6e5-58a5-4654-a1e1-2fa226eba041" />
 
+Instructions for use (executable file only):
+
+Download the crosser.exe file and move the file to desktop.
+Once downloaded, double click to run.
