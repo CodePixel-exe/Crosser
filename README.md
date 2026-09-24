@@ -13,15 +13,15 @@ If the car hits a pedestrian, game over.
 Player can also quit to main menu and press enter to try again.
 <img width="797" height="627" alt="image" src="https://github.com/user-attachments/assets/884de6e5-58a5-4654-a1e1-2fa226eba041" />
 
-[NOTE!]>
+>[NOTE!]
 > Instructions for use (**executable file only**):
 
 Download the crosser.exe file and move the file to desktop.
 Once downloaded, double click to run.
 
-Instructions for use (IDE only):
+>[NOTE!]Instructions for use (IDE only):
 
-IMPORTANT: To use this in an IDE you must make sure to check if you have pip installed to the latest version by using **pip --version** in a command prompt or terminal in your chosen IDE.
+>IMPORTANT: To use this in an IDE you must make sure to check if you have pip installed to the latest version by using **pip --version** in a command prompt or terminal in your chosen IDE.
 
 If you do not have pygame installed, use **pip install pygame-ce** in in command prompt or the IDE terminal to install the package to use in python. Doing this will install the community edition of pygame.
 
