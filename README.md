@@ -34,7 +34,7 @@ UP arrow key - move forward
 LEFT arrow key - move left
 Right Arrow Key - move right
 
-The pedestrians are the green circles you need to avoid otherwise if you hit them its an instant game over and you have to start again.
+The pedestrians are the green circles you need to avoid otherwise, if you hit them its an instant game over and you have to start again.
 You can also find more about how to play the game on the main menu by selecting the instructions button and viewing the main objective of the game and how you move.
 
 
