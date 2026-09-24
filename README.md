@@ -23,6 +23,11 @@ Once downloaded, double click to run.
 
 IMPORTANT: To use this in an IDE you must make sure to check if you have pip installed to the latest version by using `pip --version` in a command prompt or terminal in your chosen IDE.
 
+Ensure you also have the latest version of Python installed, you can check this with `python --version` if not then install python from python.org and download the latest version of python and add python to the PATH when on the installer.
+
+Should you not have pip installed to the latest version ensure you install pip to the latest version by running: 'pip install --upgrade pip'
+
+
 If you do not have pygame installed, use `pip install pygame-ce` in in command prompt or the IDE terminal to install the package to use in python. Doing this will install the community edition of pygame.
 
 
@@ -34,7 +39,7 @@ UP arrow key - move forward
 LEFT arrow key - move left
 Right Arrow Key - move right
 
-The pedestrians are the green circles you need to avoid otherwise, if you hit them its an instant game over and you have to start again.
+
 You can also find more about how to play the game on the main menu by selecting the instructions button and viewing the main objective of the game and how you move.
 
 
