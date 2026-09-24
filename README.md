@@ -19,11 +19,11 @@ Player can also quit to main menu and press enter to try again.
 Download the crosser.exe file and move the file to desktop.
 Once downloaded, double click to run.
 
->[!NOTE] Instructions for use (IDE only):
+Instructions for use (IDE only):
 
-IMPORTANT: To use this in an IDE you must make sure to check if you have pip installed to the latest version by using **pip --version** in a command prompt or terminal in your chosen IDE.
+IMPORTANT: To use this in an IDE you must make sure to check if you have pip installed to the latest version by using >**pip --version** in a command prompt or terminal in your chosen IDE.
 
-If you do not have pygame installed, use **pip install pygame-ce** in in command prompt or the IDE terminal to install the package to use in python. Doing this will install the community edition of pygame.
+If you do not have pygame installed, use >**pip install pygame-ce** in in command prompt or the IDE terminal to install the package to use in python. Doing this will install the community edition of pygame.
 
 
 
