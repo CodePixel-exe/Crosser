@@ -2,7 +2,7 @@
 #Buy powerups and lives
 
 #Imports for game functionality
-import pygame, button, sys, os
+import pygame, button as button, sys, os
 #Import to wrap sprites and assets for later compiling
 from resource_path import file_path
 import menu

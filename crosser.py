@@ -2,6 +2,7 @@ import pygame, random
 import sys, os
 #imports the pedestrian class in the game folder to be used in the main game file
 from ped import PedSprite
+from save_score import Save_System 
 
 def file_path(relative_path):
     if hasattr(sys, '_MEIPASS'):
@@ -34,6 +35,8 @@ clock = pygame.time.Clock()
 #sprites and graphics
 path_image = pygame.image.load(file_path("graphics/path.png")).convert_alpha()
 coin = pygame.image.load(file_path("sprites/coin V2.png")).convert_alpha()
+
+saveSystem = Save_System(".save", "save_file")
 
 #Car class for all of the functions relating to the car
 class CAR:
@@ -170,7 +173,7 @@ class PEDS(pygame.sprite.Sprite):
         
 #this will contain some main game elements like checking for collisions
 class MAIN:
-    def __init__(self):
+    def __init__(self, hi_score = None):
         self.ped_group = PedSprite()
         self.world_row_Os = 0
         #ped collision sound
@@ -190,7 +193,10 @@ class MAIN:
         
         #scrolling and score variables
         self.score = 0
-        self.hi_score = 0
+        if hi_score is not None:
+            self.hi_score = hi_score
+        else:
+            self.hi_score = saveSystem.load_score("hi-score")
         self.scroll_targ = 0
         self.scroll_speed = 4
         
@@ -429,6 +435,7 @@ class MAIN:
                 self.hit_sound.play()
                 if self.score > self.hi_score:
                     self.hi_score = self.score
+                    saveSystem.save_score(self.score, "hi-score")
                 return self.game_over()
 
 #Draws the elements
@@ -477,6 +484,10 @@ class MAIN:
 
     #displays game over text options to quit or restart (ESC to quit, ENTER to restart)
     def game_over(self):
+            if self.score >= self.hi_score:
+                self.hi_score = self.score
+                saveSystem.save_score(self.score, "hi-score")
+                print("New High Score saved!.", self.score)
             gameOverMenu = True
             while gameOverMenu:
                 screen.fill((0,0,0))
@@ -492,7 +503,7 @@ class MAIN:
                     if event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_RETURN:
                             gameOverMenu = False
-                            return MAIN()
+                            return MAIN(self.hi_score)
                         elif event.key == pygame.K_ESCAPE:
                             gameOverMenu = False
                             return "menu"
