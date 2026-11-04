@@ -40,7 +40,7 @@ LEFT arrow key - move left
 Right Arrow Key - move right
 
 
-You can also find more about how to play the game on the main menu by selecting the instructions button and viewing the main objective of the game and how you move.
+You can also find more about how to play the game on the main menu by selecting on the main menu; options > tutorial > controls. This will allow you you to view the main objective of the game and how you move.
 
 
 
