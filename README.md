@@ -17,8 +17,8 @@ Instructions for use (**executable file only**):
 
 Download the crosser.exe file and move the file to desktop.
 
-[You can find the download for the .exe in the releases section of the repo:
-https://github.com/CodePixel-exe/Crosser/releases]
+(You can find the download for the .exe in the releases section of the repo:
+https://github.com/CodePixel-exe/Crosser/releases/latest)
 
 
 Once downloaded, double click to run.
