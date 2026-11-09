@@ -16,7 +16,15 @@ Player can also quit to main menu and press enter to try again.
 Instructions for use (**executable file only**):
 
 Download the crosser.exe file and move the file to desktop.
+
+[You can find the download for the .exe in the releases section of the repo:
+https://github.com/CodePixel-exe/Crosser/releases]
+
+
 Once downloaded, double click to run.
+
+
+
 
 >[!NOTE]
 >Instructions for use (IDE only):
