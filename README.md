@@ -9,6 +9,7 @@ The main objective of the game is an endless vertical scroller with the intent o
 ## Gameplay:
 <img width="798" height="628" alt="image" src="https://github.com/user-attachments/assets/bb0e76da-a253-44a3-b073-0381782ccf01" />
 
+## Game Over
 If the car hits a pedestrian, game over.
 Player can also quit to main menu and press enter to try again.
 <img width="797" height="627" alt="image" src="https://github.com/user-attachments/assets/884de6e5-58a5-4654-a1e1-2fa226eba041" />
