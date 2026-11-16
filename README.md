@@ -3,10 +3,10 @@ A college project I had developed on a college course. The game makes use of Pyt
 The game drops you in as a car with a top down perspective where you have to control where your car goes, and avoid hitting pedestrians which would result in an instant game over.
 The main objective of the game is an endless vertical scroller with the intent of getting as high of a score as possible which can be achieved by collecting coins and making a successful move by not hitting any pedestrians.
 
-Menu
+## Menu
 <img width="799" height="629" alt="Screenshot 2025-05-29 110259" src="https://github.com/user-attachments/assets/518d960d-db99-4cf2-aebe-f161d9ec8167" />
 
-Gameplay:
+## Gameplay:
 <img width="798" height="628" alt="image" src="https://github.com/user-attachments/assets/bb0e76da-a253-44a3-b073-0381782ccf01" />
 
 If the car hits a pedestrian, game over.
