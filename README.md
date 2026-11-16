@@ -1,7 +1,7 @@
 # Crosser
-A college project I had developed on a past course. The game makes use of Python and the Pygame module library. 
+A college project I had developed on a college course. The game makes use of Python and the Pygame module library. 
 The game drops you in as a car with a top down perspective where you have to control where your car goes, and avoid hitting pedestrians which would result in an instant game over.
-The main objective of the game is an endless verticle scroller with the intent of getting as high of a score as possible which can be achieved by collecting coins and making a successful move by not hitting any pedestrians.
+The main objective of the game is an endless vertical scroller with the intent of getting as high of a score as possible which can be achieved by collecting coins and making a successful move by not hitting any pedestrians.
 
 Menu
 <img width="799" height="629" alt="Screenshot 2025-05-29 110259" src="https://github.com/user-attachments/assets/518d960d-db99-4cf2-aebe-f161d9ec8167" />
