@@ -6,7 +6,7 @@ The main objective of the game is an endless vertical scroller with the intent o
 ## Menu
 <img width="799" height="629" alt="Screenshot 2025-05-29 110259" src="https://github.com/user-attachments/assets/518d960d-db99-4cf2-aebe-f161d9ec8167" />
 
-## Gameplay:
+## Gameplay
 <img width="798" height="628" alt="image" src="https://github.com/user-attachments/assets/bb0e76da-a253-44a3-b073-0381782ccf01" />
 
 ## Game Over
